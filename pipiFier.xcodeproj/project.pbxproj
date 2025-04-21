@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7D12B22DB6316300F0C8A8 /* pipiFier Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EE7D12B12DB6316300F0C8A8 /* pipiFier Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7D129C2DB6316300F0C8A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7D12772DB6315F00F0C8A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7D127E2DB6315F00F0C8A8;
+			remoteInfo = pipiFier;
+		};
+		EE7D12A62DB6316300F0C8A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7D12772DB6315F00F0C8A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7D127E2DB6315F00F0C8A8;
+			remoteInfo = pipiFier;
+		};
+		EE7D12B32DB6316300F0C8A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7D12772DB6315F00F0C8A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7D12B02DB6316300F0C8A8;
+			remoteInfo = "pipiFier Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE7D12D12DB6316300F0C8A8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EE7D12B22DB6316300F0C8A8 /* pipiFier Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE7D127F2DB6315F00F0C8A8 /* pipiFier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pipiFier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7D129B2DB6316300F0C8A8 /* pipiFierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pipiFierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7D12A52DB6316300F0C8A8 /* pipiFierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pipiFierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7D12B12DB6316300F0C8A8 /* pipiFier Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "pipiFier Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EE7D12CB2DB6316300F0C8A8 /* Exceptions for "pipiFier Extension" folder in "pipiFier Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EE7D12B02DB6316300F0C8A8 /* pipiFier Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EE7D12812DB6315F00F0C8A8 /* pipiFier */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = pipiFier;
+			sourceTree = "<group>";
+		};
+		EE7D129E2DB6316300F0C8A8 /* pipiFierTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = pipiFierTests;
+			sourceTree = "<group>";
+		};
+		EE7D12A82DB6316300F0C8A8 /* pipiFierUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = pipiFierUITests;
+			sourceTree = "<group>";
+		};
+		EE7D12B52DB6316300F0C8A8 /* pipiFier Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EE7D12CB2DB6316300F0C8A8 /* Exceptions for "pipiFier Extension" folder in "pipiFier Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "pipiFier Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7D127C2DB6315F00F0C8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7D12982DB6316300F0C8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7D12A22DB6316300F0C8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7D12AE2DB6316300F0C8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7D12762DB6315F00F0C8A8 = {
+			isa = PBXGroup;
+			children = (
+				EE7D12812DB6315F00F0C8A8 /* pipiFier */,
+				EE7D129E2DB6316300F0C8A8 /* pipiFierTests */,
+				EE7D12A82DB6316300F0C8A8 /* pipiFierUITests */,
+				EE7D12B52DB6316300F0C8A8 /* pipiFier Extension */,
+				EE7D12802DB6315F00F0C8A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7D12802DB6315F00F0C8A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7D127F2DB6315F00F0C8A8 /* pipiFier.app */,
+				EE7D129B2DB6316300F0C8A8 /* pipiFierTests.xctest */,
+				EE7D12A52DB6316300F0C8A8 /* pipiFierUITests.xctest */,
+				EE7D12B12DB6316300F0C8A8 /* pipiFier Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7D127E2DB6315F00F0C8A8 /* pipiFier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7D12D22DB6316300F0C8A8 /* Build configuration list for PBXNativeTarget "pipiFier" */;
+			buildPhases = (
+				EE7D127B2DB6315F00F0C8A8 /* Sources */,
+				EE7D127C2DB6315F00F0C8A8 /* Frameworks */,
+				EE7D127D2DB6315F00F0C8A8 /* Resources */,
+				EE7D12D12DB6316300F0C8A8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7D12B42DB6316300F0C8A8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE7D12812DB6315F00F0C8A8 /* pipiFier */,
+			);
+			name = pipiFier;
+			packageProductDependencies = (
+			);
+			productName = pipiFier;
+			productReference = EE7D127F2DB6315F00F0C8A8 /* pipiFier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE7D129A2DB6316300F0C8A8 /* pipiFierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7D12D52DB6316300F0C8A8 /* Build configuration list for PBXNativeTarget "pipiFierTests" */;
+			buildPhases = (
+				EE7D12972DB6316300F0C8A8 /* Sources */,
+				EE7D12982DB6316300F0C8A8 /* Frameworks */,
+				EE7D12992DB6316300F0C8A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7D129D2DB6316300F0C8A8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE7D129E2DB6316300F0C8A8 /* pipiFierTests */,
+			);
+			name = pipiFierTests;
+			packageProductDependencies = (
+			);
+			productName = pipiFierTests;
+			productReference = EE7D129B2DB6316300F0C8A8 /* pipiFierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE7D12A42DB6316300F0C8A8 /* pipiFierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7D12D82DB6316300F0C8A8 /* Build configuration list for PBXNativeTarget "pipiFierUITests" */;
+			buildPhases = (
+				EE7D12A12DB6316300F0C8A8 /* Sources */,
+				EE7D12A22DB6316300F0C8A8 /* Frameworks */,
+				EE7D12A32DB6316300F0C8A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7D12A72DB6316300F0C8A8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE7D12A82DB6316300F0C8A8 /* pipiFierUITests */,
+			);
+			name = pipiFierUITests;
+			packageProductDependencies = (
+			);
+			productName = pipiFierUITests;
+			productReference = EE7D12A52DB6316300F0C8A8 /* pipiFierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EE7D12B02DB6316300F0C8A8 /* pipiFier Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7D12CC2DB6316300F0C8A8 /* Build configuration list for PBXNativeTarget "pipiFier Extension" */;
+			buildPhases = (
+				EE7D12AD2DB6316300F0C8A8 /* Sources */,
+				EE7D12AE2DB6316300F0C8A8 /* Frameworks */,
+				EE7D12AF2DB6316300F0C8A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EE7D12B52DB6316300F0C8A8 /* pipiFier Extension */,
+			);
+			name = "pipiFier Extension";
+			packageProductDependencies = (
+			);
+			productName = "pipiFier Extension";
+			productReference = EE7D12B12DB6316300F0C8A8 /* pipiFier Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7D12772DB6315F00F0C8A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					EE7D127E2DB6315F00F0C8A8 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					EE7D129A2DB6316300F0C8A8 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = EE7D127E2DB6315F00F0C8A8;
+					};
+					EE7D12A42DB6316300F0C8A8 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = EE7D127E2DB6315F00F0C8A8;
+					};
+					EE7D12B02DB6316300F0C8A8 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = EE7D127A2DB6315F00F0C8A8 /* Build configuration list for PBXProject "pipiFier" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7D12762DB6315F00F0C8A8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EE7D12802DB6315F00F0C8A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7D127E2DB6315F00F0C8A8 /* pipiFier */,
+				EE7D129A2DB6316300F0C8A8 /* pipiFierTests */,
+				EE7D12A42DB6316300F0C8A8 /* pipiFierUITests */,
+				EE7D12B02DB6316300F0C8A8 /* pipiFier Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7D127D2DB6315F00F0C8A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7D12992DB6316300F0C8A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7D12A32DB6316300F0C8A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7D12AF2DB6316300F0C8A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7D127B2DB6315F00F0C8A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7D12972DB6316300F0C8A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7D12A12DB6316300F0C8A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7D12AD2DB6316300F0C8A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7D129D2DB6316300F0C8A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7D127E2DB6315F00F0C8A8 /* pipiFier */;
+			targetProxy = EE7D129C2DB6316300F0C8A8 /* PBXContainerItemProxy */;
+		};
+		EE7D12A72DB6316300F0C8A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7D127E2DB6315F00F0C8A8 /* pipiFier */;
+			targetProxy = EE7D12A62DB6316300F0C8A8 /* PBXContainerItemProxy */;
+		};
+		EE7D12B42DB6316300F0C8A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7D12B02DB6316300F0C8A8 /* pipiFier Extension */;
+			targetProxy = EE7D12B32DB6316300F0C8A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE7D12CD2DB6316300F0C8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "pipiFier Extension/pipiFier_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687XUD32GC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pipiFier Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "pipiFier Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFier.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EE7D12CE2DB6316300F0C8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "pipiFier Extension/pipiFier_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687XUD32GC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pipiFier Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "pipiFier Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFier.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EE7D12CF2DB6316300F0C8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 687XUD32GC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE7D12D02DB6316300F0C8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 687XUD32GC;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EE7D12D32DB6316300F0C8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pipiFier/pipiFier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687XUD32GC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pipiFier;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EE7D12D42DB6316300F0C8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pipiFier/pipiFier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687XUD32GC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pipiFier;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EE7D12D62DB6316300F0C8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687XUD32GC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pipiFier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pipiFier";
+			};
+			name = Debug;
+		};
+		EE7D12D72DB6316300F0C8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687XUD32GC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pipiFier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pipiFier";
+			};
+			name = Release;
+		};
+		EE7D12D92DB6316300F0C8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687XUD32GC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = pipiFier;
+			};
+			name = Debug;
+		};
+		EE7D12DA2DB6316300F0C8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687XUD32GC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = pipiFier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7D127A2DB6315F00F0C8A8 /* Build configuration list for PBXProject "pipiFier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7D12CF2DB6316300F0C8A8 /* Debug */,
+				EE7D12D02DB6316300F0C8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7D12CC2DB6316300F0C8A8 /* Build configuration list for PBXNativeTarget "pipiFier Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7D12CD2DB6316300F0C8A8 /* Debug */,
+				EE7D12CE2DB6316300F0C8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7D12D22DB6316300F0C8A8 /* Build configuration list for PBXNativeTarget "pipiFier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7D12D32DB6316300F0C8A8 /* Debug */,
+				EE7D12D42DB6316300F0C8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7D12D52DB6316300F0C8A8 /* Build configuration list for PBXNativeTarget "pipiFierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7D12D62DB6316300F0C8A8 /* Debug */,
+				EE7D12D72DB6316300F0C8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7D12D82DB6316300F0C8A8 /* Build configuration list for PBXNativeTarget "pipiFierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7D12D92DB6316300F0C8A8 /* Debug */,
+				EE7D12DA2DB6316300F0C8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7D12772DB6315F00F0C8A8 /* Project object */;
+}
