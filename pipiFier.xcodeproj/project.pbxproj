@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE7D12B22DB6316300F0C8A8 /* pipiFier Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EE7D12B12DB6316300F0C8A8 /* pipiFier Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EED525D92DB7232F00AE044D /* pipiFier Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EE7D12B12DB6316300F0C8A8 /* pipiFier Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +25,28 @@
 			remoteGlobalIDString = EE7D127E2DB6315F00F0C8A8;
 			remoteInfo = pipiFier;
 		};
-		EE7D12B32DB6316300F0C8A8 /* PBXContainerItemProxy */ = {
+		EED525D72DB7232600AE044D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7D12772DB6315F00F0C8A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7D12B02DB6316300F0C8A8;
+			remoteInfo = "pipiFier Extension";
+		};
+		EED525DA2DB7232F00AE044D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7D12772DB6315F00F0C8A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7D12B02DB6316300F0C8A8;
+			remoteInfo = "pipiFier Extension";
+		};
+		EED525DD2DB7233300AE044D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7D12772DB6315F00F0C8A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7D12B02DB6316300F0C8A8;
+			remoteInfo = "pipiFier Extension";
+		};
+		EED525DF2DB7233800AE044D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EE7D12772DB6315F00F0C8A8 /* Project object */;
 			proxyType = 1;
@@ -35,13 +56,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EE7D12D12DB6316300F0C8A8 /* Embed Foundation Extensions */ = {
+		EED525DC2DB7233000AE044D /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				EE7D12B22DB6316300F0C8A8 /* pipiFier Extension.appex in Embed Foundation Extensions */,
+				EED525D92DB7232F00AE044D /* pipiFier Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +155,7 @@
 				EE7D129E2DB6316300F0C8A8 /* pipiFierTests */,
 				EE7D12A82DB6316300F0C8A8 /* pipiFierUITests */,
 				EE7D12B52DB6316300F0C8A8 /* pipiFier Extension */,
+				EED525D62DB7232500AE044D /* Frameworks */,
 				EE7D12802DB6315F00F0C8A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,6 +171,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		EED525D62DB7232500AE044D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,12 +188,15 @@
 				EE7D127B2DB6315F00F0C8A8 /* Sources */,
 				EE7D127C2DB6315F00F0C8A8 /* Frameworks */,
 				EE7D127D2DB6315F00F0C8A8 /* Resources */,
-				EE7D12D12DB6316300F0C8A8 /* Embed Foundation Extensions */,
+				EED525DC2DB7233000AE044D /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE7D12B42DB6316300F0C8A8 /* PBXTargetDependency */,
+				EED525D82DB7232600AE044D /* PBXTargetDependency */,
+				EED525DB2DB7232F00AE044D /* PBXTargetDependency */,
+				EED525DE2DB7233300AE044D /* PBXTargetDependency */,
+				EED525E02DB7233800AE044D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				EE7D12812DB6315F00F0C8A8 /* pipiFier */,
@@ -365,10 +397,25 @@
 			target = EE7D127E2DB6315F00F0C8A8 /* pipiFier */;
 			targetProxy = EE7D12A62DB6316300F0C8A8 /* PBXContainerItemProxy */;
 		};
-		EE7D12B42DB6316300F0C8A8 /* PBXTargetDependency */ = {
+		EED525D82DB7232600AE044D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EE7D12B02DB6316300F0C8A8 /* pipiFier Extension */;
-			targetProxy = EE7D12B32DB6316300F0C8A8 /* PBXContainerItemProxy */;
+			targetProxy = EED525D72DB7232600AE044D /* PBXContainerItemProxy */;
+		};
+		EED525DB2DB7232F00AE044D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7D12B02DB6316300F0C8A8 /* pipiFier Extension */;
+			targetProxy = EED525DA2DB7232F00AE044D /* PBXContainerItemProxy */;
+		};
+		EED525DE2DB7233300AE044D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7D12B02DB6316300F0C8A8 /* pipiFier Extension */;
+			targetProxy = EED525DD2DB7233300AE044D /* PBXContainerItemProxy */;
+		};
+		EED525E02DB7233800AE044D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7D12B02DB6316300F0C8A8 /* pipiFier Extension */;
+			targetProxy = EED525DF2DB7233800AE044D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -377,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "pipiFier Extension/pipiFier_Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 687XUD32GC;
@@ -396,7 +444,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFier.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.pipiFier.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -408,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "pipiFier Extension/pipiFier_Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 687XUD32GC;
@@ -427,7 +476,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFier.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.pipiFier.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -583,11 +632,11 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFier;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.pipiFier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -619,11 +668,11 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFier;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.pipiFier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
@@ -637,7 +686,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFierTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.piFierTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -655,7 +704,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFierTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.piFierTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -671,7 +720,7 @@
 				DEVELOPMENT_TEAM = 687XUD32GC;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFierUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.pipiFierUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -687,7 +736,7 @@
 				DEVELOPMENT_TEAM = 687XUD32GC;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.WhatsAppShare.pipiFierUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archethoughts.pipiFierUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
